@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_api_testng/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWork_day11/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_jmeter/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api/pom.xml" />
+        <option value="$PROJECT_DIR$/Scott_practice/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v2/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v3/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v4/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_jmeter2/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scott/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_6V/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v6/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v5/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scottv5/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scottv6/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scottv7/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v7/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scottv8/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scottv9/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v8/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v9/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_v9/java19_auto_api10/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api10/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWork/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/homework_day11/pom.xml" />
+        <option value="$PROJECT_DIR$/java19_auto_api_scott_v6/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/java19_auto_api_scottv8">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://laptop-scott/svn/java19_auto_api" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java19_auto_api_scottv9">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://laptop-scott/svn/java19_auto_api2" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/java19_auto_api_v9">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://laptop-scott/svn/java19_auto_api_v9" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

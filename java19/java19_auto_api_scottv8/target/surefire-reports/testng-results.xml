@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="前程贷项目" duration-ms="7142" started-at="2020-07-05T10:00:48Z" finished-at="2020-07-05T10:00:56Z">
+    <groups>
+    </groups>
+    <test name="注册接口" duration-ms="3511" started-at="2020-07-05T10:00:48Z" finished-at="2020-07-05T10:00:52Z">
+      <class name="com.lemon.cases.RegisterCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-07-05T18:00:48Z" finished-at="2020-07-05T18:00:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="test" duration-ms="858" started-at="2020-07-05T18:00:49Z" data-provider="datas" finished-at="2020-07-05T18:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='register', url='http://api.lemonban.com/futureloan/member/register', method='post', params='{"mobile_phone":"19000000000","pwd":""}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="test" duration-ms="102" started-at="2020-07-05T18:00:50Z" data-provider="datas" finished-at="2020-07-05T18:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='register', url='http://api.lemonban.com/futureloan/member/register', method='post', params='{"mobile_phone":"","pwd":"123456"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="test" duration-ms="90" started-at="2020-07-05T18:00:50Z" data-provider="datas" finished-at="2020-07-05T18:00:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='register', url='http://api.lemonban.com/futureloan/member/register', method='post', params='{"mobile_phone":"123","pwd":"123456123"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="test" duration-ms="84" started-at="2020-07-05T18:00:50Z" data-provider="datas" finished-at="2020-07-05T18:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='register', url='http://api.lemonban.com/futureloan/member/register', method='post', params='{"mobile_phone":"19000000000","pwd":"12345"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="test" duration-ms="1334" started-at="2020-07-05T18:00:51Z" data-provider="datas" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=5, name='register', url='http://api.lemonban.com/futureloan/member/register', method='post', params='{"mobile_phone":"18774609323","pwd":"12345678","type":0}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='select count(*) from member a where a.mobile_phone = '18774609323';'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.RegisterCase@354fc8f0]" name="test" duration-ms="98" started-at="2020-07-05T18:00:52Z" data-provider="datas" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=6, name='register', url='http://api.lemonban.com/futureloan/member/register', method='post', params='{"mobile_phone":"18774609323","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.RegisterCase -->
+    </test> <!-- 注册接口 -->
+    <test name="登录接口" duration-ms="685" started-at="2020-07-05T10:00:52Z" finished-at="2020-07-05T10:00:53Z">
+      <class name="com.lemon.cases.LoginCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-05T18:00:52Z" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="test" duration-ms="90" started-at="2020-07-05T18:00:52Z" data-provider="datas" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone":"19000000000","pwd":""}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="test" duration-ms="114" started-at="2020-07-05T18:00:52Z" data-provider="datas" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone":"","pwd":"123456"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="test" duration-ms="80" started-at="2020-07-05T18:00:52Z" data-provider="datas" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone":"123","pwd":"123456123"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="test" duration-ms="93" started-at="2020-07-05T18:00:52Z" data-provider="datas" finished-at="2020-07-05T18:00:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone}":"13212312312","pwd":"123123123"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="test" duration-ms="138" started-at="2020-07-05T18:00:52Z" data-provider="datas" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=5, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone":"18774609323","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@12bfd80d]" name="test" duration-ms="89" started-at="2020-07-05T18:00:53Z" data-provider="datas" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=6, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone":"18774609323","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK","$.data.mobile_phone":"15670890431"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.LoginCase -->
+    </test> <!-- 登录接口 -->
+    <test name="充值接口" duration-ms="2240" started-at="2020-07-05T10:00:53Z" finished-at="2020-07-05T10:00:55Z">
+      <class name="com.lemon.cases.ChargeCase1">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-07-05T18:00:53Z" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCase(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="testCase" duration-ms="78" started-at="2020-07-05T18:00:53Z" data-provider="datas" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', method='post', params='{"member_id":"-1","amount":"6300"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="testCase" duration-ms="80" started-at="2020-07-05T18:00:53Z" data-provider="datas" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=2, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', method='post', params='{"member_id":"215223","amount":"1116300"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="testCase" duration-ms="88" started-at="2020-07-05T18:00:53Z" data-provider="datas" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=3, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', method='post', params='{"member_id":"215223","amount":"-6300"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="testCase" duration-ms="89" started-at="2020-07-05T18:00:53Z" data-provider="datas" finished-at="2020-07-05T18:00:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=4, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', method='post', params='{"member_id":"215223","amount":"SSS"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="testCase" duration-ms="879" started-at="2020-07-05T18:00:53Z" data-provider="datas" finished-at="2020-07-05T18:00:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=5, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', method='post', params='{"member_id":"215223","amount":"3500"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK","$.data.id":215223}', sql='select leave_amount from  member  where id = 215223;'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.ChargeCase1@5b40ceb]" name="testCase" duration-ms="957" started-at="2020-07-05T18:00:54Z" data-provider="datas" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=6, name='recharge', url='http://api.lemonban.com/futureloan/member/recharge', method='post', params='{"member_id":"215223","amount":"3500"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK","$.data.id":215223}', sql='select leave_amount from  member  where id = 215223;'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- com.lemon.cases.ChargeCase1 -->
+    </test> <!-- 充值接口 -->
+    <test name="新增项目" duration-ms="160" started-at="2020-07-05T10:00:55Z" finished-at="2020-07-05T10:00:55Z">
+      <class name="com.lemon.cases.AddCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.AddCase@295eaa7c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-05T18:00:55Z" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.AddCase@295eaa7c]" name="test" duration-ms="85" started-at="2020-07-05T18:00:55Z" data-provider="datas" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='add', url='http://api.lemonban.com/futureloan/loan/add', method='post', params='{ "member_id":215223, "title":"报名 Java 全栈自动化课程", "amount":6300.00, "loan_rate":12.0, "loan_term":12, "loan_date_type":1, "bidding_days":5 }', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.AddCase -->
+    </test> <!-- 新增项目 -->
+    <test name="管理员登录" duration-ms="185" started-at="2020-07-05T10:00:55Z" finished-at="2020-07-05T10:00:55Z">
+      <class name="com.lemon.cases.LoginCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.LoginCase@2ece4966]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-07-05T18:00:55Z" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.LoginCase@2ece4966]" name="test" duration-ms="146" started-at="2020-07-05T18:00:55Z" data-provider="datas" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='login', url='http://api.lemonban.com/futureloan/member/login', method='post', params='{"mobile_phone":"18774609321","pwd":"12345678"}', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.LoginCase -->
+    </test> <!-- 管理员登录 -->
+    <test name="审核项目" duration-ms="127" started-at="2020-07-05T10:00:55Z" finished-at="2020-07-05T10:00:55Z">
+      <class name="com.lemon.cases.AuditCase">
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.AuditCase@5b11a194]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-07-05T18:00:55Z" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.AuditCase@5b11a194]" name="test" duration-ms="90" started-at="2020-07-05T18:00:55Z" data-provider="datas" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='audit', url='http://api.lemonban.com/futureloan/loan/audit', method='PATCH', params='{ "loan_id": 1301980, "approved_or_not": true }', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.lemon.cases.AuditCase -->
+    </test> <!-- 审核项目 -->
+    <test name="投资" duration-ms="146" started-at="2020-07-05T10:00:55Z" finished-at="2020-07-05T10:00:56Z">
+      <class name="com.lemon.cases.InvestCase">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.lemon.cases.InvestCase@207ea13]" name="init" is-config="true" duration-ms="28" started-at="2020-07-05T18:00:48Z" finished-at="2020-07-05T18:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeClass(int)[pri:0, instance:com.lemon.cases.InvestCase@207ea13]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-07-05T18:00:55Z" finished-at="2020-07-05T18:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test(com.lemon.pojo.CaseInfo)[pri:0, instance:com.lemon.cases.InvestCase@207ea13]" name="test" duration-ms="115" started-at="2020-07-05T18:00:55Z" data-provider="datas" finished-at="2020-07-05T18:00:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CaseInfo{id=1, name='invest', url='http://api.lemonban.com/futureloan/member/invest', method='post', params='{"member_id":215199,"loan_id":1301980,"amount":6300.00} ', contentType='json', expectResult='{"$.code":0,"$.msg":"OK"}', sql='null'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.lemon.cases.InvestCase@207ea13]" name="finish" is-config="true" duration-ms="247" started-at="2020-07-05T18:00:56Z" finished-at="2020-07-05T18:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.lemon.cases.InvestCase -->
+    </test> <!-- 投资 -->
+  </suite> <!-- 前程贷项目 -->
+</testng-results>

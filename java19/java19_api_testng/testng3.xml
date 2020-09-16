@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xxx项目">
+    <test name="XXX接口">
+        <classes>
+            <class name="com.lemon.testng.Demo3_scott"></class>
+            <parameter name="type" value="scott"></parameter>
+            <parameter name="sheetindex" value="20"></parameter>
+            <parameter name="scott" value="scott.tang"></parameter>
+            <parameter name="adth" value="14.00"></parameter>
+        </classes>
+    </test>
+</suite>

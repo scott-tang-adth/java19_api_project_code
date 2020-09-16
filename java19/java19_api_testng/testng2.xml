@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xxx项目">
+    <test name="xxx接口2">
+        <classes>
+            <class name="com.lemon.testng.Demo3"></class>
+            <parameter name="type" value="adth"></parameter>
+            <parameter name="sheetIndex" value="299"></parameter>
+            <parameter name="sheetIndex2" value="300"></parameter>
+        </classes>
+    </test>
+    <test name="xxx接口3">
+        <classes>
+            <class name="com.lemon.testng.Demo4"></class>
+            <parameter name="type" value="firefox"></parameter>
+            <parameter name="sheetIndex" value="2"></parameter>
+        </classes>
+    </test>
+
+</suite>

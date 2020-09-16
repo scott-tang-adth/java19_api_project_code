@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java19_auto_api_v5" />
+        <module name="java19_auto_api_v4" />
+        <module name="java19_auto_api_v3" />
+        <module name="java19_auto_api_v2" />
+        <module name="java19_jmeter2" />
+        <module name="java19_jmeter_homework11" />
+        <module name="java19_auto_api_scottv9" />
+        <module name="java19_auto_api_scott" />
+        <module name="java19_api_testng" />
+        <module name="java19_auto_api_scottv8" />
+        <module name="java19_auto_api_scottv7" />
+        <module name="HomeWork" />
+        <module name="java19_auto_api_scottv6" />
+        <module name="java19_auto_api_scottv5" />
+        <module name="java19_auto_api10" />
+        <module name="java19_jmeter" />
+        <module name="Scott_practice" />
+        <module name="java19_auto_api_v9" />
+        <module name="java19_auto_api" />
+        <module name="java19_auto_api_v8" />
+        <module name="java19_auto_api_v7" />
+        <module name="java19_auto_api_v6" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="homework_day11" target="1.5" />
+      <module name="java19_auto_api_6V" target="1.8" />
+      <module name="java19_auto_api_scott_v5" target="1.8" />
+      <module name="java19_auto_api_scott_v6" target="1.8" />
+      <module name="java19_auto_api_scott_v6_1" target="1.8" />
+      <module name="java19_auto_apiv6_scott" target="1.8" />
+      <module name="java19_jmeter (2)" target="1.5" />
+      <module name="java19_jmeter_homeworkday11" target="1.5" />
+      <module name="java_auto_api6" target="1.8" />
+      <module name="moco-runner" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

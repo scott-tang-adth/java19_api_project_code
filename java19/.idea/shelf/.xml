@@ -1,0 +1,14 @@
+<changelist name="测试提交" date="1594199151814" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/测试提交/shelved.patch" />
+  <option name="DESCRIPTION" value="测试提交" />
+  <binary>
+    <option name="BEFORE_PATH" value="java19_auto_api_scottv9/src/test/resources/cases_v32.xlsx" />
+    <option name="AFTER_PATH" value="java19_auto_api_scottv9/src/test/resources/cases_v32.xlsx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/测试提交/cases_v32.xlsx" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="java19_auto_api_scottv9/target/test-classes/cases_v32.xlsx" />
+    <option name="AFTER_PATH" value="java19_auto_api_scottv9/target/test-classes/cases_v32.xlsx" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/测试提交/cases_v321.xlsx" />
+  </binary>
+</changelist>

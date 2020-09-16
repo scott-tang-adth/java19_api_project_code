@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XXX项目">
+   <test name="XXX接口" >
+       <classes >
+           <class name="com.lemon.testng.Demo2"></class>
+         <!--  <class name="com.lemon.testng.Demo1_scott"></class>-->
+           <class name="com.lemon.testng.Demo1"></class>
+       </classes>
+   </test>
+</suite>

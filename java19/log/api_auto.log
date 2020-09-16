@@ -1,0 +1,6 @@
+2020-07-10 16:35:35 method: com.lemon.utils.HttpUtils.printResponse(HttpUtils.java:240) - [ INFO ]----[Content-Length: 502, Content-Type: application/json; charset=utf-8]
+2020-07-10 16:35:35 method: com.lemon.utils.HttpUtils.printResponse(HttpUtils.java:245) - [ INFO ]----{"code":0,"msg":"OK","data":{"id":70362,"leave_amount":0.0,"mobile_phone":"13212312312","reg_name":"小柠檬","reg_time":"2019-12-19 21:12:21.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2019-12-19 21:17:23","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjg5ODU4LCJleHAiOjE1NzY3NjE0NDN9.ZJKz-aOxWtCQakvhOfRjTSTA_K7amiKe0e9wpaF9lpzKQaTZiVjsoUDmpA2DCKtIdMyaQ4QYWWybP1ZD5QDVWQ"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-07-10 16:35:35 method: com.lemon.utils.HttpUtils.printResponse(HttpUtils.java:250) - [ INFO ]----200
+2020-07-10 16:44:29 method: com.lemon.utils.HttpUtils.printResponse(HttpUtils.java:249) - [ INFO ]----[Content-Length: 161, Content-Type: application/json; charset=utf-8]
+2020-07-10 16:44:29 method: com.lemon.utils.HttpUtils.printResponse(HttpUtils.java:254) - [ INFO ]----{"code":0,"msg":"OK","data":{"id":123,"leave_amount":1800000.01,"mobile_phone":"13888888879","reg_name":"小柠檬","reg_time":"2019-08-25 21:18:30.0","type":1}}
+2020-07-10 16:44:29 method: com.lemon.utils.HttpUtils.printResponse(HttpUtils.java:259) - [ INFO ]----200

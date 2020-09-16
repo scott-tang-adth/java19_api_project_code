@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/ideaCode/java19/java19_api_testng"><classes><class name="com.lemon.testng.Demo1"><methods><include name="f2"/></methods></class><class name="com.lemon.testng.Demo1_scott"><methods><include name="f3"/><include name="f2"/><include name="scott"/></methods></class></classes></test></suite>

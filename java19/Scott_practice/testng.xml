@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng同时驱动登录注册充值三个接口">
+    <test name="注册接口">
+        <classes>
+            <class name="java19_auto_api_scott_v4.cases.RegisterCase"></class>
+            <parameter name="sheetIndex" value="0"></parameter>
+        </classes>
+    </test>
+    <test name="登录接口">
+        <classes>
+            <class name="java19_auto_api_scott_v4.cases.LoginCase1"></class>
+            <parameter name="sheetIndex" value="1"></parameter>
+        </classes>
+    </test>
+    <test name="充值接口">
+        <classes >
+            <class name="java19_auto_api_scott_v4.cases.ChargeCase"></class>
+            <parameter name="sheetIndex" value="2"></parameter>
+        </classes>
+    </test>
+
+</suite>
